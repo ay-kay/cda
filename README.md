@@ -1,8 +1,14 @@
 # cda
-*A simple iOS command line tool to search for installed apps and list container paths (bundle, data, group)*
+*A simple iOS command line tool to search for installed apps and list container folders (bundle, data, group).*
 
 This tool facilitates the process of locating installation paths of iOS apps installed on a device. During app assessments, e.g., `cda`can be used to quickly identify an app's bundle (app binary, _Info.plist_, etc.) or user data (_Documents_, _Library_, etc.) folders for further investigation.
 
+##### Features:
+
+  * Wildcard search locally installed apps.
+  * Display team and bundle identifier.
+  * Display app installation paths (including group containers).
+  * Easy copy-paste representation for further investigation.
 
 ##### Requirements:
 
@@ -25,7 +31,7 @@ $ make package install
 $ dpkg -i com.nesolabs.cda.deb
 ```
 
-## Running
+## Usage
 
 ##### Basic search syntax:
 
