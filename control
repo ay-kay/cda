@@ -1,0 +1,10 @@
+Package: com.nesolabs.cda
+Name: cda
+Depends:
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Search for installed apps and list container paths (bundle, data, group)
+Maintainer: Andreas Kurtz
+Author: Andreas Kurtz
+Section: System
+Tag: role::hacker
