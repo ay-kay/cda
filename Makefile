@@ -1,6 +1,6 @@
 TARGET = iphone::9.0:9.0
 
-include theos/makefiles/common.mk
+include $(THEOS)/makefiles/common.mk
 
 TOOL_NAME = cda
 cda_FILES = main.mm
